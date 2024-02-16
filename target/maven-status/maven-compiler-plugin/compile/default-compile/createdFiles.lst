@@ -1,5 +1,6 @@
-UsersBean.class
 org\example\OvnWeb\JAXRSConfiguration.class
-org\example\OvnWeb\resources\JavaEE8Resource.class
 Servlets\LogInServlet.class
 Servlets\HomeServlet.class
+Servlets\RegisterServlet.class
+UsersBean.class
+org\example\OvnWeb\resources\JavaEE8Resource.class
