@@ -8,7 +8,7 @@
     </head>
     <body>
         <h1>Hello World from Register!</h1>
-        <form action="/inputChooser" method="POST">
+        <form action="/login" method="POST">
             <label for="fname">First name:</label>
             <input type="text" id="fname" name="fname"></input>
             <label for="lname">Last name:</label>

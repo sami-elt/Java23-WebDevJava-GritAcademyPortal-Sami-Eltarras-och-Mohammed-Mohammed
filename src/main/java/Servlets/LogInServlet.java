@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet(urlPatterns = "/Login")
+@WebServlet(urlPatterns = "/login")
 public class LogInServlet extends HttpServlet {
 
     @Override
@@ -18,7 +18,7 @@ public class LogInServlet extends HttpServlet {
         System.out.println("we've posted");
 
         if(req.getParameter("signIn") != null){
-            address="signIn.jsp";
+            address="Register.jsp";
         }
 
         req.getRequestDispatcher(address).forward(req, resp);
